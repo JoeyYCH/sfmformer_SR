@@ -1,3 +1,4 @@
+# BasicSR framework dependencies
 addict
 fairscale
 future
@@ -10,7 +11,11 @@ requests
 scikit-image
 scipy
 tb-nightly
-# torch==2.5.0
-# torchvision
 tqdm
-yapf
+
+# SFMformer-specific dependencies
+einops
+timm
+pywt
+ninja
+fvcore
