@@ -36,7 +36,7 @@ SFMformer is an efficient image super-resolution network that performs **spatial
 | **PyTorch** | 2.8.0 + cu128    |
 | **CUDA**    | 12.8             |
 
-The installation is based on [PFT-SR](https://github.com/labshuhanggu/Progressive-Focused-Transformer-for-Single-Image-Super-Resolution) and [BasicSR](https://github.com/XPixelGroup/BasicSR).
+The installation is based on [PFT-SR](https://github.com/CVL-UESTC/PFT-SR/tree/master) and [BasicSR](https://github.com/XPixelGroup/BasicSR).
 
 ---
 
@@ -77,7 +77,7 @@ Please download the training and testing datasets from [HiT-SR](https://github.c
 
 ## 📁 Pretrained Models
 
-Pretrained weights will be released at [Google Drive](your-link-here).
+Pretrained weights will be released at [Google Drive](https://drive.google.com/drive/folders/13xxMaTwbKoBIJVuUaaGjb1naCsxnM8-k?usp=sharing).
 
 After downloading, place them under:
 
@@ -136,16 +136,7 @@ Quantitative comparison with state-of-the-art lightweight SR methods on benchmar
 
 ## 📝 Citation
 
-If you find this work useful for your research, please consider citing:
-
-```bibtex
-@article{huang2026sfmformer,
-  title={SFMformer: [Your Full Paper Title]},
-  author={Huang, [Your Name] and ...},
-  journal={...},
-  year={2026}
-}
-```
+The associated paper is currently under preparation. Citation information will be updated once the preprint is released on arXiv.
 
 ---
 
@@ -159,3 +150,18 @@ This implementation is built upon the following excellent works:
 - [DMNet](https://github.com/PRIS-CV/DMNet) — Dual-domain Modulation Network
 
 We sincerely thank the authors for releasing their code.
+
+<!--
+@article{Yang2026sfmformer,
+  title={SFMformer: 論文真正的標題},
+  author={Yang, C.H},
+  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  year={2026}
+}
+@inproceedings{Yang2026sfmformer,
+  title={SFMformer: 論文真正的標題},
+  author={Yang, C.H},
+  booktitle={Proceedings of the IEEE/CVF Conference on ...},
+  year={2026}
+}
+-->
