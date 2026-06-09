@@ -1,6 +1,5 @@
-# SFMformer: [Your Paper Title Here]
+# SFMformer: Spatial-Frequency Modulation for Efficient Image Super-Resolution
 
-> Official PyTorch implementation of **"SFMformer: ..."**.
 
 [![Python](https://img.shields.io/badge/Python-3.9-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.8.0-red)](https://pytorch.org/)
